@@ -36,7 +36,7 @@ async def handle_client(reader, writer):
 async def start_rksok():
     server = await asyncio.start_server(
         handle_client,
-        "127.0.0.1",
+        "195.135.253.40",
         8000
     )
     # addrs = " ,".join(str(sock.getsockname()) for sock in server.sockets)
